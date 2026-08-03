@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<packagegui>
+	<menu>
+		<name>OCI Cert Sync</name>
+		<tooltiptext>Sync pfSense-managed certificates to Oracle Cloud Certificate Manager</tooltiptext>
+		<section>Services</section>
+		<url>/ocicertsync/ocicertsync_settings.php</url>
+	</menu>
+</packagegui>
