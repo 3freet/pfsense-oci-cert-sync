@@ -142,13 +142,6 @@ Removes the installed files and cron job. Saved Settings/Accounts/Mappings
 stay in `config.xml` (harmless once the files are gone) — reinstalling
 picks them back up as-is.
 
-## Upgrading from an older single-account version
-
-Earlier versions kept one global OCI identity directly under Settings.
-On first load after upgrading, that identity is automatically migrated
-into an OCI Account named "Default (migrated)", and any existing
-certificate mapping is pointed at it — no manual re-entry needed.
-
 ## Caveats
 
 - If your OCI Load Balancer listener references this certificate by a
@@ -162,7 +155,3 @@ certificate mapping is pointed at it — no manual re-entry needed.
   OCI Dedicated Region Cloud@Customer tenancy). Please verify carefully
   before relying on this for anything production-critical.
 
-## License
-
-No license file is included yet, so default copyright applies (all rights
-reserved). Add a `LICENSE` file before treating this as open source.
