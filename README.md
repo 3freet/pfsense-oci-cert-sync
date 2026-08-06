@@ -1,3 +1,4 @@
+<img width="703" height="602" alt="image" src="https://github.com/user-attachments/assets/fdd9ccaf-2f74-4ebf-bbba-66346ca113da" />
 # OCI Cert Sync for pfSense
 
 A pfSense GUI add-on that keeps certificates from the pfSense **Certificate
